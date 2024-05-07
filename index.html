@@ -5,7 +5,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-      <link
+    <link
       rel="preconnect"
       href="https://fonts.googleapis.com" />
     <link
@@ -15,35 +15,66 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <img
-      src="media/akasalogo.png"
-      alt="asaka" />
-    <h1>Welcome to the Asaka Poem Generator</h1>
+    <header>
+      <img
+        src="media/akasalogo.png"
+        alt="asaka" />
+      <h1>Asaka Poem Generator</h1>
+    </header>
 
-    <script src="src/index.js"></script>
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter the topic or phrase of the poem."
+          autofocus
+          required
+          autocomplete="off" />
+        <input type="submit" />
+      </form>
+      <div>
+        Still I Rise
+                You may write me down in history
+                With your bitter, twisted lies,
+                You may trod me in the very dirt
+                But still, like dust, I'll rise.
+      </br>
+
+                Does my sassiness upset you?
+                Why are you beset with gloom?
+                ’Cause I walk like I've got oil wells
+                Pumping in my living room.
+      </div>
+    </main>
+
     <footer>
-        <p>
-          This AI project was coded by
-          <a
-            href="https://github.com/dperki02"
-            target="_blank"
-            >Dana Paulette Perkins</a
-          >
-          and is open sourced
-          <a
-            href="https://github.com/dperki02/poem-generator"
-            target="_blank">
-            on GitHub</a
-          >
-          and
-          <a
-            href="https://asaka-ai-poem-generator.netlify.app"
-            target="_blank"
-            >hosted on Netlify</a
-          >
+      <p>
+        This AI project was coded by
+        <a
+          href="https://github.com/dperki02"
+          target="_blank"
+          >Dana Paulette Perkins</a
+        >
+        and is open sourced
+        <a
+          href="https://github.com/dperki02/poem-generator"
+          target="_blank">
+          on GitHub</a
+        >
+        and
+        <a
+          href="https://asaka-ai-poem-generator.netlify.app"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </p>
+    </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
