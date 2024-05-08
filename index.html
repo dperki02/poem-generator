@@ -18,6 +18,7 @@
     <link
       rel="stylesheet"
       href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>  
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -31,7 +32,7 @@
     </header>
 
     <main>
-      <form>
+      <form id="poem-generator-form">
         <input
           type="text"
           placeholder="Enter the topic or phrase of the poem."
@@ -41,18 +42,7 @@
           class="prompt" />
         <input type="submit" class="submit-button" id="submit-button"/>
       </form>
-      <div class="poem">
-        Still I Rise
-                You may write me down in history
-                With your bitter, twisted lies,
-                You may trod me in the very dirt
-                But still, like dust, I'll rise.
-      </br>
-
-                Does my sassiness upset you?
-                Why are you beset with gloom?
-                ’Cause I walk like I've got oil wells
-                Pumping in my living room.
+      <div class="poem" id="poem"></div>
       </div>
     </main>
 
