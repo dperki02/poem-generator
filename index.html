@@ -21,10 +21,12 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <img
+    <img
         src="media/akasalogo.png"
-        alt="asaka" />
+        alt="asaka" /> 
+    <div class="container">    
+    <header>
+     
       <h1>Asaka Poem Generator</h1>
     </header>
 
@@ -35,10 +37,11 @@
           placeholder="Enter the topic or phrase of the poem."
           autofocus
           required
-          autocomplete="off" />
-        <input type="submit" />
+          autocomplete="off"
+          class="prompt" />
+        <input type="submit" class="submit-button" id="submit-button"/>
       </form>
-      <div>
+      <div class="poem">
         Still I Rise
                 You may write me down in history
                 With your bitter, twisted lies,
@@ -75,6 +78,7 @@
         >
       </p>
     </footer>
+    </div> 
     <script src="src/index.js"></script>
   </body>
 </html>
